@@ -39,7 +39,7 @@ drwxrwxr-x 3 ubuntu ubuntu 4096 Apr 22 17:18 ../
 
 ## Create a mysql container with name volume
 ```bash
-> docker container run -d -p 3306:3306 --name my-mysql -v my-name-volume:/var/lib/mysql mysql:5.7
+> docker container run -d -p 3306:3306 --name mysql-1 -v mysql_vol_1:/var/lib/mysql mysql:5.7
 ```
 
 ## How do I get inside the container?
