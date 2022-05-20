@@ -1,6 +1,6 @@
 import { createClient } from 'redis';
 
-const HOST = 'localhost';
+const HOST = 'my-redis';
 
 const client = createClient({
     url: `redis://${HOST}:6379`
